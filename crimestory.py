@@ -1,9 +1,14 @@
+import os
+
 import streamlit as st
 import requests
 from datetime import datetime, timedelta
 
-# YouTube API Key
-API_KEY = " AIzaSyByb44Yj9NMWoRaVOk4r85wXEcnrqqDUTc"
+# YouTube API key comes from the environment. Never commit it to the repo.
+API_KEY = os.environ.get("YOUTUBE_API_KEY", "").strip()
+if not API_KEY:
+    st.error("Set the YOUTUBE_API_KEY environment variable before starting the app.")
+    st.stop()
 YOUTUBE_SEARCH_URL = "https://www.googleapis.com/youtube/v3/search"
 YOUTUBE_VIDEO_URL = "https://www.googleapis.com/youtube/v3/videos"
 YOUTUBE_CHANNEL_URL = "https://www.googleapis.com/youtube/v3/channels"
