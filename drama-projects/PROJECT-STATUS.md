@@ -83,6 +83,25 @@ The assembler opens each film with a **19-second teaser**. Each film is about **
 
 ---
 
+## 3b. Omni Voto generation capacity (screenshot, Oct 26)
+From `omni.voto/admin/accounts`. Limits reset at **12:00 AM Pakistan time**.
+
+| | Videos | Images |
+|---|---|---|
+| Daily limit (usable accounts) | 350 | 350 |
+| Used today | 199 | 0 |
+| **Left today** | **151** | **350** |
+| In progress | 0 | 0 |
+
+- **7 accounts can generate** and none are in use (0 of 7). **117 accounts are switched off**: expired, cooling down, in error or disabled.
+- **Nothing is generating right now**, so Spanish generation is not running.
+- 151 videos covers roughly **one Spanish film** today (about 100 or more clips per film). The rest waits for the midnight reset.
+- To go faster, recheck the 117 off accounts. Each recovered account adds about 50 videos a day.
+- The "92,844 shortfall / 1,857 accounts needed" figures add up the full daily plan allowance of all 16 paid users. They aren't work waiting for the drama projects.
+- **Next step:** in the Spanish session, check that OmniFlow is actually sending jobs. "In progress" on the page should go above 0.
+
+---
+
 ## 4. Warning about the old profile
 The old sessions set a **check-in every 2 hours for 7 days**. They will wake up again when the old limit resets on **Oct 30, 8:00 AM**.
 If the old sessions and the new ones both work on the same folders, they will clash.
