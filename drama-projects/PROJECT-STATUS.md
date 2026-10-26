@@ -54,7 +54,10 @@ The user confirmed that **all English videos are completed**.
 - **Known bug for later languages:** `collect_by_batch.py` once resolved a `/c/Users/...` path against the F: drive and created a stray `F:\c\...` folder. Use Windows paths (`C:\Users\...`) when running it.
 - Because English is done, **Spanish generation may start now**.
 
-### Spanish: frameworks done, 1 film written
+### Spanish: in progress, some videos already done
+**Update from the user:** some Spanish videos have been updated since the notes below were written.
+The new session must check `D:\YT DX\Spanish Drama\Films` to see which films are written, generated, rendered or uploaded. The notes below are older.
+
 - `D:\YT DX\Spanish Drama\Frameworks`: four framework documents (study, titles, script, prompts).
 - **Tractor Viejo** is fully packaged: blocks, beat sheet, scene table, prompts file, SEO, thumbnail, music plan and description. Its clip folder is still empty. English is complete, so its OmniFlow generation can start now.
 - The other Spanish films (2 more, plus 2 extra planned) are not on disk yet. The last instruction was to write them.
