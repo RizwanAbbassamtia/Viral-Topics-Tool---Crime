@@ -38,27 +38,25 @@ There was also an **editor** session that renders the videos. It took instructio
 
 ## 3. Status per language
 
-### English: 5 films, 0 ready to upload
-Stories, scene tables and prompt files are complete for all five films.
-Clips are complete except **No Filter S100**, which the parent was re-submitting.
+### English: all 5 films complete ✅
+The user confirmed that **all English videos are completed**.
 
-| Film | Latest known state |
+| Film | State |
 |---|---|
-| The Blind Billionaire | v3 (teaser opening) rendered; 4:2:0 re-encode about half done |
-| The Buka Girl | v3 rendered; 4:2:0 re-encode started, content QC running |
-| The Night Driver | v4 render in progress |
-| No Filter | Queued after Night Driver; waiting on clip S100 |
-| My Mother's Shop | Queued last |
+| The Blind Billionaire | Complete |
+| The Buka Girl | Complete |
+| The Night Driver | Complete |
+| No Filter | Complete |
+| My Mother's Shop | Complete |
 
-- The v2 / v2a drafts of the three finished films (3.77 GB) are in the **Recycle Bin**. They can be restored until the bin is emptied.
-- **Known bug:** a stray `F:\c\...` folder tree was created by the parent's own `collect_by_batch.py` run (23:09), where a `/c/Users/...` path was resolved against the F: drive.
-  Use Windows paths (`C:\Users\...`) in that script. The C: clip folders are complete except S100.
-- The parent re-downloaded My Mother's Shop clips into a private folder `Clips_en_main`. The 124 extra files in the Shop clips folder are fine.
-- Next steps: finish the 4:2:0 re-encodes and QC, render Night Driver, get S100, render No Filter and My Mother's Shop, then send the "all English verified" message.
+- Next steps: confirm that each final file opens and plays, then upload. Uploading is not done yet unless stated otherwise.
+- The v2 / v2a drafts (3.77 GB) are in the **Recycle Bin**. Empty it only after the finals are uploaded.
+- **Known bug for later languages:** `collect_by_batch.py` once resolved a `/c/Users/...` path against the F: drive and created a stray `F:\c\...` folder. Use Windows paths (`C:\Users\...`) when running it.
+- Because English is done, **Spanish generation may start now**.
 
 ### Spanish: frameworks done, 1 film written
 - `D:\YT DX\Spanish Drama\Frameworks`: four framework documents (study, titles, script, prompts).
-- **Tractor Viejo** is fully packaged: blocks, beat sheet, scene table, prompts file, SEO, thumbnail, music plan and description. Its clip folder is empty because generation waits for English.
+- **Tractor Viejo** is fully packaged: blocks, beat sheet, scene table, prompts file, SEO, thumbnail, music plan and description. Its clip folder is still empty. English is complete, so its OmniFlow generation can start now.
 - The other Spanish films (2 more, plus 2 extra planned) are not on disk yet. The last instruction was to write them.
 - When Spanish generation is done, give Portuguese its go signal.
 
@@ -103,4 +101,4 @@ This is my <LANGUAGE> Drama project. The previous sessions ran out of credit, so
 4. Then continue the next steps listed for <LANGUAGE> in PROJECT-STATUS.md.
 ```
 
-Start **English first**. It is the parent and the other languages wait for it.
+English is complete, so start **Spanish** first. Portuguese comes next, then Russian.
